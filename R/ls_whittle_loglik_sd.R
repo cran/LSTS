@@ -25,7 +25,6 @@
 #' \code{TRUE}. See \code{\link{periodogram}}.
 #' @param theta.par (type: numeric) vector with the known parameters of the
 #' model.
-#' @return No return value, called for side effects.
 #' @export
 LS.whittle.loglik.sd <- function(x, series, order = c(p = 0, q = 0),
                                  ar.order = NULL, ma.order = NULL,

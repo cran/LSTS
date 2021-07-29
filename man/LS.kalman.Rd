@@ -42,9 +42,9 @@ default \eqn{m = 0.25n^{0.8}} where \code{n} the length of \code{series}.}
 }
 \value{
 A list with:
-\item{residuals}{standard residuals.}
-\item{fitted_values}{model fitted values.}
-\item{delta}{variance prediction error.}
+\item{residuals }{standard residuals.}
+\item{fitted_values }{model fitted values.}
+\item{delta }{variance prediction error.}
 }
 \description{
 This function run the state-space equations for expansion
@@ -63,5 +63,5 @@ fit_kalman <- LS.kalman(malleco, start(malleco))
 For more information on theoretical foundations and estimation methods see
 \insertRef{brockwell2002introduction}{LSTS}
 \insertRef{palma2007long}{LSTS}
-\insertRef{palma2011estimation}{LSTS}
+\insertRef{palma2013estimation}{LSTS}
 }

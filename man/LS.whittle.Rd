@@ -74,25 +74,25 @@ is required. By default is zero.}
 }
 \value{
 A list with the following components:
-\item{coef}{The best set of parameters found.}
-\item{var.coef}{covariance matrix approximated for maximum likelihood
+\item{coef }{The best set of parameters found.}
+\item{var.coef }{covariance matrix approximated for maximum likelihood
 estimator \eqn{\hat{\theta}} of
 \eqn{\theta:=(\theta_1,\ldots,\theta_k)^{\prime}}. This matrix is
 approximated by \eqn{H^{-1}/n}, where \eqn{H} is the Hessian matrix
 \eqn{[\partial^2 \ell(\theta)/\partial\theta_i
 \partial\theta_j]_{i,j=1}^{k}}.}
-\item{loglik}{log-likelihood of \code{coef}, calculated with
+\item{loglik }{log-likelihood of \code{coef}, calculated with
 \code{\link{LS.whittle}}.}
-\item{aic}{Akaike'S `An Information Criterion', for one fitted model LS-ARMA
+\item{aic }{Akaike'S `An Information Criterion', for one fitted model LS-ARMA
 or LS-ARFIMA. The formula is \eqn{-2L + 2k/n}, where \emph{L} represents the
 log-likelihood, \emph{k} represents the number of parameters in the fitted
 model and \emph{n} is equal to the length of the \code{series}.}
-\item{series}{original time serie.}
-\item{residuals}{standard residuals.}
-\item{fitted.values}{model fitted values.}
-\item{pred}{predictions of the model.}
+\item{series }{original time serie.}
+\item{residuals }{standard residuals.}
+\item{fitted.values }{model fitted values.}
+\item{pred }{predictions of the model.}
 \item{se}{the estimated standard errors.}
-\item{model}{A list representing the fitted model.}
+\item{model }{A list representing the fitted model.}
 }
 \description{
 This function computes Whittle estimator to LS-ARMA and

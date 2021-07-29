@@ -24,7 +24,6 @@
 #' @param include.taper (type: logical) logical argument that by default is
 #' \code{TRUE}. See \code{\link{periodogram}}.
 #' @param sd.par (type: numeric) value corresponding to known variance.
-#' @return No return value, called for side effects.
 #' @export
 LS.whittle.loglik.theta <- function(x, series, order = c(p = 0, q = 0),
                                     ar.order = NULL, ma.order = NULL,

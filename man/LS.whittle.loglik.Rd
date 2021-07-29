@@ -49,9 +49,6 @@ taking the blocks or windows.}
 \item{include.taper}{(type: logical) logical argument that by default is
 \code{TRUE}. See \code{\link{periodogram}}.}
 }
-\value{
-No return value, called for side effects.
-}
 \description{
 This function computes Whittle estimator for LS-ARMA and
 LS-ARFIMA models, in data with mean zero. If mean is not zero, then it is

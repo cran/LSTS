@@ -53,9 +53,6 @@ taking the blocks or windows.}
 \item{theta.par}{(type: numeric) vector with the known parameters of the
 model.}
 }
-\value{
-No return value, called for side effects.
-}
 \description{
 This function calculates log-likelihood with known \eqn{\theta},
 through \code{LS.whittle.loglik} function.

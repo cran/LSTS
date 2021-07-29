@@ -52,9 +52,6 @@ taking the blocks or windows.}
 
 \item{sd.par}{(type: numeric) value corresponding to known variance.}
 }
-\value{
-No return value, called for side effects.
-}
 \description{
 Calculate the log-likelihood with \eqn{\sigma} known, through
 \code{LS.whittle.loglik} function.

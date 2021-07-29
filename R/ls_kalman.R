@@ -24,14 +24,14 @@
 #' For more information on theoretical foundations and estimation methods see
 #' \insertRef{brockwell2002introduction}{LSTS}
 #' \insertRef{palma2007long}{LSTS}
-#' \insertRef{palma2011estimation}{LSTS}
+#' \insertRef{palma2013estimation}{LSTS}
 #' @examples
 #' fit_kalman <- LS.kalman(malleco, start(malleco))
 #' @return
 #' A list with:
-#' \item{residuals}{standard residuals.}
-#' \item{fitted_values}{model fitted values.}
-#' \item{delta}{variance prediction error.}
+#' \item{residuals }{standard residuals.}
+#' \item{fitted_values }{model fitted values.}
+#' \item{delta }{variance prediction error.}
 #' @importFrom stats na.omit ARMAtoMA
 #' @export
 LS.kalman <- function(series, start, order = c(p = 0, q = 0), ar.order = NULL,

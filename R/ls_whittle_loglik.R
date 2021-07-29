@@ -36,7 +36,6 @@
 #' For more information on theoretical foundations and estimation methods see
 #' \insertRef{brockwell2002introduction}{LSTS}
 #' \insertRef{palma2010efficient}{LSTS}
-#' @return No return value, called for side effects.
 #' @seealso \code{\link[stats]{nlminb}}, \code{\link{LS.kalman}}
 #' @importFrom stats na.omit
 #' @export
